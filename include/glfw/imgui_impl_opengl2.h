@@ -1,3 +1,4 @@
+// clang-format off
 // dear imgui: Renderer for OpenGL2 (legacy OpenGL, fixed pipeline)
 // This needs to be used along with a Platform Binding (e.g. GLFW, SDL, Win32, custom..)
 
@@ -29,3 +30,4 @@ IMGUI_IMPL_API bool     ImGui_ImplOpenGL2_CreateFontsTexture();
 IMGUI_IMPL_API void     ImGui_ImplOpenGL2_DestroyFontsTexture();
 IMGUI_IMPL_API bool     ImGui_ImplOpenGL2_CreateDeviceObjects();
 IMGUI_IMPL_API void     ImGui_ImplOpenGL2_DestroyDeviceObjects();
+// clang-format on

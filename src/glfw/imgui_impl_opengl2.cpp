@@ -1,3 +1,4 @@
+// clang-format off
 // dear imgui: Renderer for OpenGL2 (legacy OpenGL, fixed pipeline)
 // This needs to be used along with a Platform Binding (e.g. GLFW, SDL, Win32, custom..)
 
@@ -30,8 +31,8 @@
 //  2016-09-10: OpenGL: Uploading font texture as RGBA32 to increase compatibility with users shaders (not ideal).
 //  2016-09-05: OpenGL: Fixed save and restore of current scissor rectangle.
 
-#include "imgui.h"
-#include "imgui_impl_opengl2.h"
+#include <imgui.h>
+#include <imgui_impl_opengl2.h>
 #if defined(_MSC_VER) && _MSC_VER <= 1500 // MSVC 2008 or earlier
 #include <stddef.h>     // intptr_t
 #else
@@ -268,3 +269,4 @@ static void ImGui_ImplOpenGL2_ShutdownPlatformInterface()
 {
     ImGui::DestroyPlatformWindows();
 }
+// clang-format on
