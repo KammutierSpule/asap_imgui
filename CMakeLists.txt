@@ -65,6 +65,7 @@ set(private_headers
 set(sources
   src/glad/gl.cpp
   src/glfw/imgui_impl_glfw.cpp
+  src/glfw/imgui_impl_opengl2.cpp
   src/glfw/imgui_impl_opengl3.cpp
   ${imgui_public_headers}
   ${imgui_private_headers}
